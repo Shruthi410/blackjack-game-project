@@ -59,6 +59,7 @@ def play_game():
 
     if user_score == 0 or computer_score == 0 or user_score > 21:
       is_game_over = True
+      
     else:
       continue_deal = input("Do you want to draw another card? 'y' or 'n': ")
 
